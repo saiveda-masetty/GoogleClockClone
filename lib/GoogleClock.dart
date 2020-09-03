@@ -93,7 +93,6 @@ class _GoogleClockState extends State<GoogleClock> {
                           "${localTime.substring(1, 7)}",
                           style: TextStyle(
                             fontSize: 48,
-//                      fontFamily: 'Kumbh_sans-Bold',
                             color: Color(0xFF89b2f4),
                           ),
                         ),
@@ -297,7 +296,7 @@ class _GoogleClockState extends State<GoogleClock> {
                             ),
                             SizedBox(height: 10),
                             Text(
-                              '4 hr 30 min ahead',
+                              '2 hr 30 min behind',
                               style: TextStyle(color: Colors.grey[500]),
                             )
                           ],
@@ -347,7 +346,7 @@ class _GoogleClockState extends State<GoogleClock> {
                             ),
                             SizedBox(height: 10),
                             Text(
-                              '1 hr 30 min ahead',
+                              '2 hr 30 min ahead',
                               style: TextStyle(color: Colors.grey[500]),
                             )
                           ],
